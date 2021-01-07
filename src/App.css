@@ -1,0 +1,131 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+
+.sidenav p {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav input {
+    margin: 20px 10px auto;
+    text-align: center;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav p {
+        font-size: 18px;
+    }
+}
+
+.span-open-side-menu {
+    font-size: 30px;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+.categories-nameKey {
+    text-align: center;
+    cursor: pointer;
+}
+
+.three-lines-icon {
+    color: black;
+    background-color: #818181;
+    border: 10px solid #818181;
+}
+
+.open-span {
+    padding: 16px;
+}
+
+.categories {
+    cursor: pointer;
+}
+
+.bottom-left {
+    float: left;
+    position: absolute;
+    margin: 0 auto;
+    color: white;
+    bottom: 0;
+    left: 0;
+}
+
+.container-games {
+    display: flex;
+}
+
+.container-games .larges {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.container-games .smalls {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    align-content: flex-start;
+}
+
+.container-games img {
+    width: 100%;
+}
+
+.like {
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    top: 5px;
+    left: 2px;
+}
+
+.gamesList-large {
+    width: 50%;
+    position: relative;
+}
+
+.NoGame {
+    display: none;
+}
+
+.gamesList-small {
+    width: 25%;
+    position: relative;
+}
