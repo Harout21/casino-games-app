@@ -1,11 +1,6 @@
 import * as actions from './actionTypes'
 import axios from 'axios'
 
-export const getData = () => {
-    return {
-        type: actions.GET_DATA,
-    }
-};
 export const getDataSuccess = (data) => {
     return {
         type: actions.GET_DATA_SUCCESS,
@@ -28,12 +23,6 @@ export const removeFav = (item) => {
     return {
         type: actions.REMOVE_FAV,
         payload: item
-    }
-};
-export const searchName = (name) => {
-    return {
-        type: actions.GET_DATA_SUCCESS,
-        payload: name
     }
 };
 
